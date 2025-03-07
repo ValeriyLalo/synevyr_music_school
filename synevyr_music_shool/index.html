@@ -111,7 +111,7 @@
 			<div class="page__container">
 				<div class="page__body-slider">
 					<!-- Оболонка слайдера -->
-					<section class="page__slider swiper">
+					<div class="page__slider swiper">
 						<!-- Частина слайдера, що рухається -->
 						<div class="page__wrapper swiper-wrapper">
 							<!-- Слайд -->
@@ -133,9 +133,7 @@
 						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
 						<!-- <button type="button" class="swiper-button-prev "></button>
 							<button type="button" class="swiper-button-next"></button> -->
-						<!-- Якщо потрібен скролбар -->
-						<!-- <div class="swiper-scrollbar"></div> -->
-					</section>
+					</div>
 				</div>
 				<div class="page__row">
 					<div class="page__news ">
@@ -643,7 +641,7 @@
 						</section>
 					</div>
 
-					<!--Бічна панель  sidebar-->
+					<!--Бічна панель sidebar-->
 					<aside class="page__sidebar sidebar">
 						<!-- data-showmore="items"  -->
 						<section class="sidebar__gallery">
@@ -774,12 +772,14 @@
 						</section>
 
 						<section class="sidebar__calendar calendar ">
+							<h2 class="sidebar__title">Календар</h2>
 							<a class="calendar__link"  href="https://www.dilovamova.com/" target="_blank">
 								<img class="calendar__image" alt="Календар свят і подій. Листівки, вітання та побажання" title="Календар свят і подій. Листівки, вітання та побажання" src="https://www.dilovamova.com/images/wpi.cache/informer/informer_300_01.png">
 							</a>
 						</section>
 
 						<section class="sidebar__weather weather">
+							<h2 class="sidebar__title">Погода</h2>
 							<iframe class="weather__link" src="https://api.wo-cloud.com/content/widget/?geoObjectKey=1470585&language=uk&region=UA&timeFormat=HH:mm&windUnit=mps&systemOfMeasurement=metric&temperatureUnit=celsius" name="CW2" width="254" height="318" style="border: 1px solid #FFBE00;border-radius: 8px"></iframe>
 						</section>
 					</aside>
