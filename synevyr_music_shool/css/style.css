@@ -607,9 +607,9 @@ body::after {
 .icon-menu {
   justify-self: flex-end
 }
-.footer {
+/* .footer {
   border: 1px solid #fff
-}
+} */
 .footer__top {
   padding-block: .9375rem;
   background-color: #4e556b;
